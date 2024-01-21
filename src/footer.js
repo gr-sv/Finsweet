@@ -12,7 +12,7 @@ function Footer () {
 
 				<section className="footer-navigation">
 					<h2 className="visually-hidden">Navigation</h2>
-					<Menu />
+					<Menu className="footer-menu" />
 				</section>
 
 				<section className="copygight">
