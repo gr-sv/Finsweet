@@ -17,21 +17,21 @@ function Footer () {
 				</section>
 
 				<section className="social">
-				<h2 className="visually-hidden">Social networks</h2>
-				<div className="social__list">
-					<a className="social__link" href="#">
-						<span className="visually-hidden">Facebook</span>
-					</a>
-					<a className="social__link" href="#">
-						<span className="visually-hidden">Twitter</span>
-					</a>
-					<a className="social__link" href="#">
-						<span className="visually-hidden">Instagram</span>
-					</a>
-					<a className="social__link" href="#">
-						<span className="visually-hidden">LinkedIn</span>
-					</a>
-				</div>
+					<h2 className="visually-hidden">Social networks</h2>
+					<div className="social__list">
+						<a className="social__link" href="#">
+							<span className="visually-hidden">Facebook</span>
+						</a>
+						<a className="social__link" href="#">
+							<span className="visually-hidden">Twitter</span>
+						</a>
+						<a className="social__link" href="#">
+							<span className="visually-hidden">Instagram</span>
+						</a>
+						<a className="social__link" href="#">
+							<span className="visually-hidden">LinkedIn</span>
+						</a>
+					</div>
 				</section>
 
 				<section className="contact-us">
