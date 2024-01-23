@@ -1,17 +1,18 @@
+import Wrapper from "./wrapper";
 import Logo from "./logo";
 import Menu from "./menu";
 
 function Footer () {
 	return (
 		<div className="footer">
-			<div className="wrapper footer-wrapper">
+			<Wrapper className="footer-wrapper">
 				<section className="footer-navigation">
 					<h2 className="visually-hidden">Navigation</h2>
-					<Logo className="footer-logo" />
-					<Menu className="footer-menu" />
+					<Logo className="footer-navigation__logo" />
+					<Menu className="footer-navigation__menu" />
 				</section>
 
-				<section className="copygight">
+				<section className="copyright">
 					<h2 className="visually-hidden">Copyright</h2>
 					<p className="copyrigth__text">&copy; 2021 Finsweet | All rights reserved.</p>
 				</section>
@@ -38,7 +39,7 @@ function Footer () {
 					<h2 className="visually-hidden">Contact us</h2>
 					<p className="contact-us__text">Contact us</p>
 				</section>
-			</div>			
+			</Wrapper>			
 		</div>
 	)
 }

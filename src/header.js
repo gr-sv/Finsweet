@@ -1,16 +1,17 @@
+import Wrapper from "./wrapper";
 import Logo from './logo.js'
 import Menu from './menu.js'
 
 function Header () {
 	return (
 		<div className="header">
-			<div className="wrapper header-wrapper">
+			<Wrapper className="header-wrapper">
 				<nav className="navigation">
-					<Logo className="header-logo" />
-					<Menu className="header-menu" />
+					<Logo className="navigation__logo" />
+					<Menu className="navigation__menu" />
 					<a className="navigation__link" href="/">Clone Project</a>
 				</nav>
-			</div>
+			</Wrapper>
 		</div>
 	)
 }
