@@ -1,6 +1,6 @@
-import Wrapper from "./wrapper";
-import Logo from "./logo";
-import Menu from "./menu";
+import Wrapper from "../wrapper/wrapper";
+import Logo from "../../logo";
+import Menu from "../../menu";
 
 function Footer () {
 	return (

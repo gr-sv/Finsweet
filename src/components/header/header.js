@@ -1,6 +1,6 @@
-import Wrapper from "./wrapper";
-import Logo from './logo.js'
-import Menu from './menu.js'
+import Wrapper from "../wrapper/wrapper.js";
+import Logo from '../../logo.js'
+import Menu from '../../menu.js'
 
 function Header () {
 	return (
