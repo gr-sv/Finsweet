@@ -1,9 +1,12 @@
 import Address from "../address/address";
+import Button from "../shared/button/button";
 import Wrapper from "../wrapper/wrapper";
 
 function Home () {
 	return (
 		<div className="home">
+			<Button>Button</Button>
+
 			<section className="promo">
 				<Wrapper className="promo-wrapper">
 					<h1 className="visually-hidden">Finsweet</h1>
