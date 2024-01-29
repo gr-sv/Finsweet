@@ -1,6 +1,8 @@
-const Button = ({ children, className }) => {
+import classNames from 'classNames';
+
+const Button = ({ children, className, disabled }) => {
 	return (
-		<button>
+		<button className={classNames("button", className, disabled)}>
 			{ children }
 		</button>
 	);
