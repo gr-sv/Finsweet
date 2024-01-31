@@ -1,6 +1,6 @@
-import classNames from 'classNames';
+import classNames from 'classnames';
 
-const Button = ({ children, className, disabled }) => {
+function Button ({ children, className, disabled }) {
 	return (
 		<button className={classNames("button", className, disabled)}>
 			{ children }
