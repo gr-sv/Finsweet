@@ -1,5 +1,6 @@
+import React from 'react';
 import classNames from 'classnames';
-import './button.css'
+import './button.css';
 
 const Button = ({ 
 	children,
@@ -7,7 +8,7 @@ const Button = ({
 	disabled
 }) => {
 	return (
-		<button className={classNames("button", className, {
+		<button className={classNames( 'button', className, {
 			'disabled': disabled,
 		})}>
 			{ children }

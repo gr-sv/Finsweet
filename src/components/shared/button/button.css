@@ -5,3 +5,10 @@
 	background-color: transparent;
 	cursor: pointer;
 }
+
+.disabled,
+.disabled:hover,
+.disabled:active {
+	cursor: not-allowed;
+	transform: none;
+}

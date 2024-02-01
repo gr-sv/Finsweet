@@ -1,11 +1,19 @@
 import Address from "../address/address";
 import Button from "../shared/button/button";
 import Wrapper from "../wrapper/wrapper";
+import './home.css'
 
 function Home () {
 	return (
 		<div className="home">
-			<Button>Button</Button>
+			<div className="test-button">
+				<Button>Base button</Button>
+				<br />
+				<Button className="button__black">Button</Button>
+				<br />
+				<Button className="button__clone">Clone Project</Button>
+			</div>
+			
 
 			<section className="promo">
 				<Wrapper className="promo-wrapper">
