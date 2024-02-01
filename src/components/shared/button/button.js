@@ -1,8 +1,15 @@
 import classNames from 'classnames';
+import './button.css'
 
-function Button ({ children, className, disabled }) {
+const Button = ({ 
+	children,
+	className,
+	disabled
+}) => {
 	return (
-		<button className={classNames("button", className, disabled)}>
+		<button className={classNames("button", className, {
+			'disabled': disabled,
+		})}>
 			{ children }
 		</button>
 	);
