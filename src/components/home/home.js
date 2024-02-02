@@ -12,7 +12,9 @@ function Home () {
 				<br />
 				<Button className="button__black">Button</Button>
 				<br />
-				<Button className="button__clone">Clone Project</Button>
+				<Button button__clone>Clone Project</Button>
+				<br />
+				<Button button__menu>Fast Food</Button>
 			</div>
 			
 

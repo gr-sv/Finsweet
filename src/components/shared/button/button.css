@@ -6,6 +6,24 @@
 	cursor: pointer;
 }
 
+.button__clone {
+	font-weight: 500;
+	color: #FFC492;
+	background-color: #19161B;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: capitalize;
+}
+
+.button__menu {
+	font-weight: 700;
+	color: #D9D9D9;
+	background-color: #19161B;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: capitalize;
+}
+
 .disabled,
 .disabled:hover,
 .disabled:active {

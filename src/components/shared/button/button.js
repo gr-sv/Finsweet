@@ -5,10 +5,16 @@ import './button.css';
 const Button = ({ 
 	children,
 	className,
-	disabled
+	button__clone,
+	button__menu,
+	button__form,
+	disabled,
 }) => {
 	return (
 		<button className={classNames( 'button', className, {
+			'button__clone': button__clone,
+			'button__menu': button__menu,
+			'button__form': button__form,
 			'disabled': disabled,
 		})}>
 			{ children }
