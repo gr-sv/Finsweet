@@ -8,20 +8,28 @@
 
 .button__clone {
 	font-weight: 500;
-	color: #FFC492;
-	background-color: #19161B;
 	font-size: 16px;
 	line-height: 24px;
+	color: #FFC492;
+	background-color: #19161B;
 	text-transform: capitalize;
 }
 
 .button__menu {
 	font-weight: 700;
-	color: #D9D9D9;
-	background-color: #19161B;
 	font-size: 20px;
 	line-height: 30px;
+	color: #D9D9D9;
+	background-color: #19161B;
 	text-transform: capitalize;
+}
+
+.button__form {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	background-color: #27252D;
 }
 
 .disabled,
