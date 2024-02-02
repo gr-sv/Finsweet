@@ -1,3 +1,4 @@
+import React from "react";
 import Wrapper from "../wrapper/wrapper";
 import Logo from "../../logo";
 import Menu from "../../menu";
