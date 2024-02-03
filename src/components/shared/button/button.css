@@ -4,6 +4,12 @@
 	border-radius: 0;
 	background-color: transparent;
 	cursor: pointer;
+	transition: .3s;
+}
+
+button:hover {
+	color: #FFFFFF;
+	background-color: #1F1D21;
 }
 
 .button__clone {
