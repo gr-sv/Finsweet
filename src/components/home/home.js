@@ -12,8 +12,6 @@ function Home () {
 				<br />
 				<Button className="button__black">Button</Button>
 				<br />
-				<Button button__clone>Clone Project</Button>
-				<br />
 				<Button button__menu>Fast Food</Button>
 				<br />
 				<Button button__form>Send Messege</Button>
