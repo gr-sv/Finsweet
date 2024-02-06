@@ -15,6 +15,8 @@ function Home () {
 				<Button button__menu>Fast Food</Button>
 				<br />
 				<Button button__form>Send Messege</Button>
+				<br />
+				<Button disabled>Disabled</Button>
 			</div>
 			
 

@@ -56,4 +56,6 @@
 .disabled:active {
 	cursor: not-allowed;
 	transform: none;
+	color: #19161B;
+	background-color: #27252D;
 }
