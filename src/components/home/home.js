@@ -2,7 +2,7 @@ import React from "react";
 import Address from "../address/address";
 import Button from "../shared/button/button";
 import Wrapper from "../wrapper/wrapper";
-import './home.css'
+import './home.module.scss'
 
 function Home () {
 	return (

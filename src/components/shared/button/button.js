@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import './button.css';
+import './button.module.scss';
 
 const Button = ({ 
 	children,

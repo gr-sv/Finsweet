@@ -3,7 +3,7 @@ import Wrapper from "../wrapper/wrapper.js";
 import Logo from '../../logo.js'
 import Menu from '../../menu.js'
 import Button from "../shared/button/button.js";
-import './header.css'
+import './header.module.scss'
 
 function Header () {
 	return (
