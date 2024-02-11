@@ -1,7 +1,7 @@
-import React from "react";
-import Wrapper from "../wrapper/wrapper";
-import Logo from "../../logo";
-import Menu from "../../menu";
+import React from 'react';
+import Wrapper from '../wrapper/wrapper';
+import Logo from '../../shared/logo/logo';
+import Menu from '../../shared/menu/menu';
 
 function Footer () {
 	return (

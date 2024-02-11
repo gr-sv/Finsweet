@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Menu () {
 	return (
 		<ul className="menu__list">

@@ -1,7 +1,7 @@
-import React from "react";
-import Address from "../address/address.jsx";
-import Button from "../shared/button/button.jsx";
-import Wrapper from "../wrapper/wrapper.jsx";
+import React from 'react';
+import Address from '../shared/address/address.jsx';
+import Button from '../shared/button/button.jsx';
+import Wrapper from '../widgets/wrapper/wrapper.jsx';
 import s from './home.module.scss'
 
 function Home () {

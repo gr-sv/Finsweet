@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Logo () {
 	return (
 		<a className="logo logo__link">

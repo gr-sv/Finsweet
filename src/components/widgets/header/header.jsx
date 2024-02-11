@@ -1,8 +1,8 @@
-import React from "react";
-import Wrapper from "../wrapper/wrapper.jsx";
-import Logo from '../../logo.jsx'
-import Menu from '../../menu.jsx'
-import Button from "../shared/button/button.jsx";
+import React from 'react';
+import Wrapper from '../wrapper/wrapper.jsx';
+import Logo from '../../shared/logo/logo.jsx'
+import Menu from '../../shared/menu/menu.jsx'
+import Button from '../../shared/button/button.jsx';
 import s from './header.module.scss'
 
 function Header () {
