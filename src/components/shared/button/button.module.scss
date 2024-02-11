@@ -5,17 +5,17 @@
 	background-color: transparent;
 	cursor: pointer;
 	transition: .3s;
+
+	&:hover {
+		background-color: rgba(255, 181, 119, 0.07);
+	}
+
+	&:active {
+		background-color: rgba(255, 181, 119, 0.03);
+	}
 }
 
-.button:hover {
-	background-color: rgba(255, 181, 119, 0.07);
-}
-
-.button:active {
-	background-color: rgba(255, 181, 119, 0.03);
-}
-
-.button__clone {
+.button_clone {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
@@ -24,7 +24,7 @@
 	text-transform: capitalize;
 }
 
-.button__menu {
+.button_menu {
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 30px;
@@ -32,18 +32,18 @@
 	background-color: #19161B;
 	text-transform: capitalize;
 	position: relative;
+
+	&:hover {
+		color: #FFFFFF;
+		background-color: transparent;
+	}
+
+	&:active {
+		color: #D9D9D9;
+	}
 }
 
-.button__menu:hover {
-	color: #FFFFFF;
-	background-color: transparent;
-}
-
-.button__menu:active {
-	color: #D9D9D9;
-}
-
-.button__form {
+.button_form {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;

@@ -1,21 +1,21 @@
 import React from 'react';
 import classNames from 'classnames';
-import './button.module.scss';
+import s from './button.module.scss';
 
 const Button = ({ 
 	children,
 	className,
-	button__clone,
-	button__menu,
-	button__form,
+	button_clone,
+	button_menu,
+	button_form,
 	disabled,
 }) => {
 	return (
-		<button className={classNames( 'button', className, {
-			'button__clone': button__clone,
-			'button__menu': button__menu,
-			'button__form': button__form,
-			'disabled': disabled,
+		<button className={classNames( s.button, className, {
+			[s.button_clone]: button_clone,
+			[s.button_menu]: button_menu,
+			[s.button_form]: button_form,
+			[s.disabled]: disabled,
 		})}>
 			{ children }
 		</button>
