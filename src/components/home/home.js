@@ -2,24 +2,23 @@ import React from "react";
 import Address from "../address/address";
 import Button from "../shared/button/button";
 import Wrapper from "../wrapper/wrapper";
-import './home.module.scss'
+import s from './home.module.scss'
 
 function Home () {
 	return (
-		<div className="home">
-			<div className="test-button">
+		<div className={s.home}>
+			<div className={s.testButton}>
 				<Button>Base button</Button>
 				<br />
-				<Button className="button__black">Button</Button>
+				<Button className={s.button_black}>Button</Button>
 				<br />
-				<Button button__menu>Fast Food</Button>
+				<Button button_menu>Fast Food</Button>
 				<br />
-				<Button button__form>Send Messege</Button>
+				<Button button_form>Send Messege</Button>
 				<br />
 				<Button disabled>Disabled</Button>
 			</div>
 			
-
 			<section className="promo">
 				<Wrapper className="promo-wrapper">
 					<h1 className="visually-hidden">Finsweet</h1>
