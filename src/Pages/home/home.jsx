@@ -6,7 +6,7 @@ import s from './home.module.scss'
 
 function Home () {
 	return (
-		<div className={s.home}>
+		<main className={s.home}>
 			<div className={s.testButton}>
 				<Button>Base button</Button>
 				<br />
@@ -60,7 +60,7 @@ function Home () {
 					<Address className="contacts__address"></Address>
 				</Wrapper>
 			</section>			
-		</div>
+		</main>
 	)
 }
 
