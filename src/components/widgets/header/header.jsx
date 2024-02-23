@@ -7,7 +7,7 @@ import s from './header.module.scss'
 
 function Header () {
 	return (
-		<div className={s.header}>
+		<header className={s.header}>
 			<Wrapper className={s.wrapper}>
 				<nav className={s.navigation}>
 					<Logo className={s.navigation__logo} />
@@ -15,7 +15,7 @@ function Header () {
 					<Button button_clone>Clone Project</Button>
 				</nav>
 			</Wrapper>
-		</div>
+		</header>
 	)
 }
 

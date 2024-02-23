@@ -5,7 +5,7 @@ import Menu from '../../shared/menu/menu';
 
 function Footer () {
 	return (
-		<div className="footer">
+		<footer className="footer">
 			<Wrapper className="footer-wrapper">
 				<section className="footer-navigation">
 					<h2 className="visually-hidden">Navigation</h2>
@@ -41,7 +41,7 @@ function Footer () {
 					<p className="contact-us__text">Contact us</p>
 				</section>
 			</Wrapper>			
-		</div>
+		</footer>
 	)
 }
 
