@@ -12,9 +12,10 @@ function Header () {
 				<nav className={s.navigation}>
 					<Logo className={s.navigation__logo} />
 					<Menu className={s.navigation__menu} />
-					<Button button_clone>Clone Project</Button>
 				</nav>
+				<Button button_clone>Clone Project</Button>
 			</Wrapper>
+			
 		</header>
 	)
 }
