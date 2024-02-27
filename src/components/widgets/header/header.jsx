@@ -14,8 +14,7 @@ function Header () {
 					<Menu className={s.navigation__menu} />
 				</nav>
 				<Button button_clone>Clone Project</Button>
-			</Wrapper>
-			
+			</Wrapper>			
 		</header>
 	)
 }
