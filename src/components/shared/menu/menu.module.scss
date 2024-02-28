@@ -9,10 +9,21 @@
 
 .menu__link {
 	display: block;
-	color: var(--text-second);
+	color: var(--link);
 	background-color: var(--background);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
+	cursor: pointer;
+
+	&:hover {
+		color: var();
+		background-color: var();
+	}
+
+	&:active {
+		color: var();
+		background-color: var();
+	}
 }
