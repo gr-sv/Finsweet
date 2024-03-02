@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from '../wrapper/wrapper';
 import Logo from '../../shared/logo/logo';
-import Menu from '../../shared/menu/menu';
+import Navigation from '../../shared/navigation/navigation';
 
 function Footer () {
 	return (
@@ -10,7 +10,7 @@ function Footer () {
 				<section className="footer-navigation">
 					<h2 className="visually-hidden">Navigation</h2>
 					<Logo className="footer-navigation__logo" />
-					<Menu className="footer-navigation__menu" />
+					<Navigation className="footer-navigation__menu" />
 				</section>
 
 				<section className="copyright">

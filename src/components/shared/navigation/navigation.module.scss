@@ -1,4 +1,4 @@
-.menu__list {
+.navigation__list {
 	width: 541px;
 	display: flex;
 	flex-direction: row;
@@ -7,7 +7,7 @@
 	flex-wrap: wrap;
 }
 
-.menu__link {
+.navigation__link {
 	padding: 10px;
 	display: block;
 	color: var(--link);
