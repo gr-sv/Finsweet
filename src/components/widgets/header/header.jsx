@@ -4,6 +4,7 @@ import Logo from '../../shared/logo/logo.jsx';
 import Navigation from '../../shared/navigation/navigation';
 import Button from '../../shared/button/button.jsx';
 import s from './header.module.scss';
+import Image from '../../shared/image/image.jsx'
 
 function Header () {
 	return (
