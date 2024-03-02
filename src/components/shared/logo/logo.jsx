@@ -1,10 +1,11 @@
 import React from 'react';
+import classNames from 'classnames';
 import s from './logo.module.scss'
 import LogoHeader from '../../../assests/icons/logo-header.svg'
 
-function Logo () {
+function Logo ({ className }) {
 	return (
-		<a className={s.logo__link}>
+		<a className={classNames(s.logo__link, className)}>
 			<img className={s.logo__image} src={LogoHeader} alt="Logo of cafe Finsweet" />
 		</a>
 	)
