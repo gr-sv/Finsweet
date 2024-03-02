@@ -1,4 +1,11 @@
 .wrapper {
 	width: 1278px;
-	padding: 20px 0;
+}
+
+@media only screen and (max-width: 1278px) {
+	.wrapper {
+		width: 100vw;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }

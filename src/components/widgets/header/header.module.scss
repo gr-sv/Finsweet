@@ -7,6 +7,8 @@
 }
 
 .wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -17,4 +19,8 @@
 	flex-direction: row;
 	justify-content: space-between;
 	gap: 35px;
+}
+
+.navigation__logo {
+	padding: 12px 5px;
 }
