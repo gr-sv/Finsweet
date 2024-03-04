@@ -10,7 +10,7 @@ function Header () {
 		<header className={s.header}>
 			<Wrapper className={s.wrapper}>
 				<nav className={s.navigation}>
-					<Logo className={s.navigation__logo} />
+					<Logo logoHeader className={s.navigation__logo} />
 					<Navigation className={s.navigation__links} />
 				</nav>
 				<Button button_clone>Clone Project</Button>
