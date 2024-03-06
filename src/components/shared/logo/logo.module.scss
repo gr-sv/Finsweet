@@ -1,8 +1,15 @@
 .link {
 	background-color: var(--background);
 	cursor: pointer;
+	transition: .3s;
 
 	&:hover {
-		border-bottom: 1px solid #FFB577;
+		border-bottom: 1px solid var(--logo-hover);
+		padding-top: 9px;
+		padding-bottom: 14px;
+	}
+
+	&:active {
+		transform: scale(0.98);
 	}
 }
