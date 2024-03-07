@@ -7,11 +7,12 @@
 	transition: .3s;
 
 	&:hover {
-		background-color: rgba(255, 181, 119, 0.07);
+		color: var(--button-text-hover);
+		background-color: var(--background-hover);
 	}
 
 	&:active {
-		background-color: rgba(255, 181, 119, 0.03);
+		background-color: var(--background-active);
 	}
 }
 
@@ -67,6 +68,6 @@
 .disabled:active {
 	cursor: not-allowed;
 	transform: none;
-	color: #19161B;
-	background-color: #27252D;
+	color: var(--button-text-disabled);
+	background-color: var(--button-disabled);
 }

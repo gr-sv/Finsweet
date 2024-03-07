@@ -5,8 +5,7 @@
 
 	&:hover {
 		border-bottom: 1px solid var(--logo-hover);
-		padding-top: 9px;
-		padding-bottom: 14px;
+		transform: translateY(-1px);
 	}
 
 	&:active {

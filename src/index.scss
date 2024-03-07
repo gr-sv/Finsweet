@@ -1,8 +1,8 @@
 :root {
 	--background: #19161B;
 	--background-second: #1F1D21;
-	--background-hover: rgba(255, 181, 119, 0.07);
-	--background-active: rgba(255, 181, 119, 0.1);
+	--background-hover: rgba(255, 196, 146, 0.47);
+	--background-active: rgba(255, 196, 146, 0.37);
 	--text: #B8B8B8;
 	--text-second: #FFFFFF;
 	--text-third: #C4E4EA;
@@ -11,6 +11,9 @@
 	--subtitle: #FFFFFF;
 	--link: #FFFFFF;
 	--logo-hover: #FFB577;
+	--button-text-hover: #FFFFFF;
+	--button-text-disabled: #19161B;
+	--button-disabled: #27252D;
 }
 
 @font-face {
