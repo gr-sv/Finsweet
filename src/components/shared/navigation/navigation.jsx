@@ -9,19 +9,19 @@ function Navigation ({ className }) {
 				<a className={s.navigation__link} href="/home">Home</a>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="#">Menu</a>
+				<a className={s.navigation__link} href="/menu">Menu</a>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="#">About us</a>
+				<a className={s.navigation__link} href="/about">About us</a>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="#">Our Story</a>
+				<a className={s.navigation__link} href="/our-story">Our Story</a>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="#">Blog</a>
+				<a className={s.navigation__link} href="/blog">Blog</a>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="#">Contact</a>
+				<a className={s.navigation__link} href="/contact">Contact</a>
 			</li>
 		</ul>
 	)
