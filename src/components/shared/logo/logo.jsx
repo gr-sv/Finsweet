@@ -20,7 +20,9 @@ function Logo ({ src, width, height, logoHeader, logoFooter, className }) {
 		<a className={classNames(s.link,  className, {
 			[logoHeader]: logoHeader,
 			[logoFooter]: logoFooter,
-		})}>
+			})}
+			href="/home"
+		>
 			<img
 				src={src}
 				width={width}
