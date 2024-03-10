@@ -96,6 +96,11 @@ body {
 	font-family: "Poppins", "Arial", sans-serif;
 }
 
+#root {
+	color: var(--text);
+	background-color: var(--background);
+}
+
 img {
 	display: block;
 }
