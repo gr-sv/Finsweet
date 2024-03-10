@@ -2,43 +2,46 @@ import React from 'react';
 import Wrapper from '../wrapper/wrapper';
 import Logo from '../../shared/logo/logo';
 import Navigation from '../../shared/navigation/navigation';
+import s from './footer.module.scss'
 
 function Footer () {
 	return (
-		<footer className="footer">
-			<Wrapper className="footer-wrapper">
-				<section className="footer-navigation">
+		<footer className={s.footer}>
+			<Wrapper className={s.wrapper_top}>
+				<section className={s.navigation}>
 					<h2 className="visually-hidden">Navigation</h2>
-					<Logo className="footer-navigation__logo" />
-					<Navigation className="footer-navigation__menu" />
+					<Logo logoFooter className={s.navigation__logo} />
+					<Navigation className={s.navigation__links} />
 				</section>
+			</Wrapper>
 
-				<section className="copyright">
+			<Wrapper className={s.wrapper_bottom}>
+				<section className={s.copyright}>
 					<h2 className="visually-hidden">Copyright</h2>
-					<p className="copyrigth__text">&copy; 2021 Finsweet | All rights reserved.</p>
+					<p className={s.copyright__text}>&copy; 2021 Finsweet | All rights reserved.</p>
 				</section>
 
-				<section className="social">
+				<section className={s.social}>
 					<h2 className="visually-hidden">Social networks</h2>
-					<div className="social__list">
-						<a className="social__link" href="#">
+					<div className={s.social__list}>
+						<a className={s.social__link} href="#">
 							<span className="visually-hidden">Facebook</span>
 						</a>
-						<a className="social__link" href="#">
+						<a className={s.social__link} href="#">
 							<span className="visually-hidden">Twitter</span>
 						</a>
-						<a className="social__link" href="#">
+						<a className={s.social__link} href="#">
 							<span className="visually-hidden">Instagram</span>
 						</a>
-						<a className="social__link" href="#">
+						<a className={s.social__link} href="#">
 							<span className="visually-hidden">LinkedIn</span>
 						</a>
 					</div>
 				</section>
 
-				<section className="contact-us">
+				<section className={s.contactUs}>
 					<h2 className="visually-hidden">Contact us</h2>
-					<p className="contact-us__text">Contact us</p>
+					<p className={s.contactsUs__text}>Contact us</p>
 				</section>
 			</Wrapper>			
 		</footer>
