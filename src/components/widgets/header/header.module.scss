@@ -30,11 +30,19 @@
 	.navigation {
 		gap: 25px;
 	}
+
+	.navigation__links {
+		gap: 10px;
+	}
 }
 
 @media only screen and (max-width: 820px) {
 	.wrapper {
 		gap: 20px;
+	}
+
+	.navigation__links {
+		gap: 2px;
 	}
 }
 
