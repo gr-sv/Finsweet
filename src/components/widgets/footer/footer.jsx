@@ -3,6 +3,7 @@ import Wrapper from '../wrapper/wrapper';
 import Logo from '../../shared/logo/logo';
 import Navigation from '../../shared/navigation/navigation';
 import s from './footer.module.scss'
+import Button from '../../shared/button/button';
 
 function Footer () {
 	return (
@@ -41,7 +42,7 @@ function Footer () {
 
 				<section className={s.contactUs}>
 					<h2 className="visually-hidden">Contact us</h2>
-					<p className={s.contactsUs__text}>Contact us</p>
+					<Button button_contact className={s.contactsUs__button}>Contact us</Button>
 				</section>
 			</Wrapper>			
 		</footer>

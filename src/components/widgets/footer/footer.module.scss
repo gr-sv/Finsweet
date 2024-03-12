@@ -27,7 +27,8 @@
 }
 
 .wrapper_bottom {
-	// padding-top: ;
+	padding-top: 24px;
+	padding-bottom: 23px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
@@ -50,7 +51,7 @@
 }
 
 .social {
-	width: 130px;
+	width: 160px;
 	justify-self: center;
 }
 
@@ -64,9 +65,11 @@
 .social__link {
 	width: 15px;
 	height: 15px;
+	padding: 10px;
 	display: block;
 	background-repeat: no-repeat;
 	background-position: center;
+	text-align: center;
 }
 
 .link__fb {
