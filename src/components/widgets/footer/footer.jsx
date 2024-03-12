@@ -24,16 +24,16 @@ function Footer () {
 				<section className={s.social}>
 					<h2 className="visually-hidden">Social networks</h2>
 					<div className={s.social__list}>
-						<a className={s.social__link} href="#">
+						<a className={`${s.social__link} ${s.link__fb}`} href="#">
 							<span className="visually-hidden">Facebook</span>
 						</a>
-						<a className={s.social__link} href="#">
+						<a className={`${s.social__link} ${s.link__twitter}`} href="#">
 							<span className="visually-hidden">Twitter</span>
 						</a>
-						<a className={s.social__link} href="#">
+						<a className={`${s.social__link} ${s.link__inst}`} href="#">
 							<span className="visually-hidden">Instagram</span>
 						</a>
-						<a className={s.social__link} href="#">
+						<a className={`${s.social__link} ${s.link__linkedin}`} href="#">
 							<span className="visually-hidden">LinkedIn</span>
 						</a>
 					</div>
