@@ -59,7 +59,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 24px;
 }
 
 .social__link {
@@ -70,6 +69,15 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
+	transition: .3s;
+
+	&:hover {
+		transform: scale(1.15);
+	}
+
+	&:active {
+		transform: scale(0.98);
+	}
 }
 
 .link__fb {
@@ -87,11 +95,7 @@
 
 .link__linkedin {
 	background-image: url(../../../../public/assests/icons/social-linkedin.svg);
-	
-	
 }
-
-
 
 .contactUs {
 	justify-self: end;
