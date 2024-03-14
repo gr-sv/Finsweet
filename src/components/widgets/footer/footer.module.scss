@@ -100,3 +100,28 @@
 .contactUs {
 	justify-self: end;
 }
+
+@media only screen and (max-width: 1024px) {
+	.wrapper_bottom {
+		grid-template-columns: repeat(2, auto);
+		grid-template-rows: repeat(2, auto)
+	}
+
+	.copyright {
+		grid-column: 1 / 2;
+		grid-row: 2 / -1;
+	}
+
+	.social {
+		grid-column: 1 / -1;
+	}
+
+	.contactUs {
+		grid-column: 2 / -1;
+		grid-row: 2 / -1;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
