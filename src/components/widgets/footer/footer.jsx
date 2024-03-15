@@ -12,7 +12,7 @@ function Footer () {
 				<section className={s.navigation}>
 					<h2 className="visually-hidden">Navigation</h2>
 					<Logo logoFooter className={s.navigation__logo} />
-					<Navigation footerNav />
+					<Navigation footerNav className={s.navigation__links} />
 				</section>
 			</Wrapper>
 

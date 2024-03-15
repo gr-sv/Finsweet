@@ -11,7 +11,7 @@ function Header () {
 			<Wrapper className={s.wrapper}>
 				<nav className={s.navigation}>
 					<Logo logoHeader className={s.navigation__logo} />
-					<Navigation headerNav />
+					<Navigation headerNav className={s.navigation__links} />
 				</nav>
 				<Button button_clone>Clone Project</Button>
 			</Wrapper>			
