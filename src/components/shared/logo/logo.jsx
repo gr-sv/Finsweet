@@ -18,8 +18,8 @@ function Logo ({ src, width, height, logoHeader, logoFooter, className }) {
 
 	return (
 		<a className={classNames(s.link,  className, {
-			[logoHeader]: logoHeader,
-			[logoFooter]: logoFooter,
+			[s.logoHeader]: logoHeader,
+			[s.logoFooter]: logoFooter,
 			})}
 			href="/home"
 		>
