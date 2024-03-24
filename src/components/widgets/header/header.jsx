@@ -11,9 +11,12 @@ function Header () {
 			<Wrapper className={s.wrapper}>
 				<nav className={s.navigation}>
 					<Logo logoHeader className={s.navigation__logo} />
-					<Navigation headerNav className={s.navigation__links} />
+					<div className={s.burger}>
+						<Navigation headerNav className={s.navigation__links} />
+						<Button button_clone>Clone Project</Button>
+					</div>
 				</nav>
-				<Button button_clone>Clone Project</Button>
+				
 			</Wrapper>			
 		</header>
 	)
