@@ -15,6 +15,9 @@ function Header () {
 						<Navigation headerNav className={s.navigation__links} />
 						<Button button_clone>Clone Project</Button>
 					</div>
+					<Button className={s.burgerButton}>
+						<span className={s.burgerButton__line}></span>
+					</Button>
 				</nav>
 				
 			</Wrapper>			

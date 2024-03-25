@@ -9,6 +9,7 @@ const Button = ({
 	button_menu,
 	button_form,
 	button_contact,
+	button_burger,
 	disabled,
 }) => {
 	return (
@@ -18,6 +19,7 @@ const Button = ({
 			[s.button_form]: button_form,
 			[s.button_contact]: button_contact,
 			[s.disabled]: disabled,
+			[s.button_burger]: button_burger,
 		})}>
 			{ children }
 		</button>
