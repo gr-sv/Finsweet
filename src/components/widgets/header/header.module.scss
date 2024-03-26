@@ -64,16 +64,19 @@
 	}
 
 	.burger {
-		width: 50vw;
-		background-color: var(--background);
-		border: 1px solid white;
+		width: 50%;
+		height: 100vh;
+		padding-top: 20px;
+		padding-left: 10px;
+		background-color: var(--background-second);
 		flex-direction: column;
 		justify-content: start;
 		align-items: start;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		z-index: 20;
+		transition: transform .3s;
 	}
 
 	.navigation {
@@ -87,21 +90,46 @@
 
 	.burgerButton {
 		display: block;
-		width: 20px;
-		height: 20px;
+		width: 24px;
+		height: 24px;
 		cursor: pointer;
+		position: relative;
 	}
 	
 	.burgerButton__line {
-		width: 30px;
+		display: block;
+		width: 24px;
 		height: 2px;
-		background-color: var(----text-second);
+		background-color: var(--text-second);
 	}
 	
-	.burgerButton__line::before {
+	.burgerButton::before {
 		content: '';
-		width: 30px;
+		width: 24px;
 		height: 2px;
-		background-color: var(----text-second);
+		background-color: var(--text-second);
+		position: absolute;
+		bottom: 0;
+		left: 0;	
+	}
+
+	.burgerButton::after {
+		content: '';
+		width: 24px;
+		height: 2px;
+		background-color: var(--text-second);
+		position: absolute;
+		top: 0;
+		left: 0;	
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.burger {
+		width: 100%;
+	}
+
+	.burgerButton {
+		z-index: 30;
 	}
 }

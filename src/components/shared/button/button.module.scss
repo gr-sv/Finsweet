@@ -82,3 +82,9 @@
 	color: var(--button-text-disabled);
 	background-color: var(--button-disabled);
 }
+
+@media only screen and (max-width: 768px) {
+	.button_clone {
+		background-color: var(--background-second);
+	}
+}
