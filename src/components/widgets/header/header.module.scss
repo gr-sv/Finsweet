@@ -74,9 +74,13 @@
 		align-items: start;
 		position: fixed;
 		top: 0;
-		left: 0;
+		left: -50%;
 		z-index: 20;
 		transition: transform .3s;
+	}
+
+	.burger.active {
+		transform: translateX(100%);
 	}
 
 	.navigation {

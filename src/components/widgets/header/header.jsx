@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Wrapper from '../wrapper/wrapper.jsx';
 import Logo from '../../shared/logo/logo.jsx';
 import Navigation from '../../shared/navigation/navigation';
@@ -6,20 +6,24 @@ import Button from '../../shared/button/button.jsx';
 import s from './header.module.scss';
 
 function Header () {
+	const [isOpen, setOpen] = useState();
+
 	return (
 		<header className={s.header}>
 			<Wrapper className={s.wrapper}>
 				<nav className={s.navigation}>
 					<Logo logoHeader className={s.navigation__logo} />
-					<div className={s.burger}>
+					<div className={`${s.burger} ${isOpen ? "active" : ""}`}>
 						<Navigation headerNav className={s.navigation__links} />
 						<Button button_clone>Clone Project</Button>
 					</div>
-					<Button className={s.burgerButton}>
+					<Button 
+						className={s.burgerButton}
+						onClick={() => setOpen(!isOpen)}
+					>
 						<span className={s.burgerButton__line}></span>
 					</Button>
 				</nav>
-				
 			</Wrapper>			
 		</header>
 	)
