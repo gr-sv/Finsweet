@@ -6,20 +6,22 @@ import Button from '../../shared/button/button.jsx';
 import s from './header.module.scss';
 
 function Header () {
-	const [isOpen, setOpen] = useState();
+	const [isActive, setIsActive] = useState(false);
 
 	return (
 		<header className={s.header}>
 			<Wrapper className={s.wrapper}>
 				<nav className={s.navigation}>
 					<Logo logoHeader className={s.navigation__logo} />
-					<div className={`${s.burger} ${isOpen ? "active" : ""}`}>
+
+					<div className={`${s.burger} ${isActive ? s.active : ''}`}>
 						<Navigation headerNav className={s.navigation__links} />
 						<Button button_clone>Clone Project</Button>
 					</div>
+
 					<Button 
 						className={s.burgerButton}
-						onClick={() => setOpen(!isOpen)}
+						onClick={() => setIsActive(!isActive)}
 					>
 						<span className={s.burgerButton__line}></span>
 					</Button>
