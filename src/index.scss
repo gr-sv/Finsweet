@@ -5,15 +5,11 @@
 	--background-hover: rgba(255, 196, 146, 0.27);
 	--background-active: rgba(255, 196, 146, 0.17);
 	--text: #B8B8B8;
-	--text-second: #FFFFFF;
-	--text-third: #C4E4EA;
+	--dustyBlue: #c4e4ea;
+	--white: #FFFFFF;
 	--text-highlighting: #FFC492;
-	--title: #FFB577;
-	--link: #FFFFFF;
-	--logo-hover: #FFB577;
+	--lightOrange: #FFB577;
 	--button-menu: #D9D9D9;
-	--button-text-hover: #FFFFFF;
-	--button-disabled: #27252D;
 }
 
 @font-face {
@@ -110,6 +106,6 @@ img {
 }
 
 :focus-visible {
-    outline: 2px solid var(--text-third);
+    outline: 2px solid var(--dustyBlue);
     outline-offset: 2px;
 }

@@ -44,7 +44,7 @@
 	position: relative;
 
 	&:hover {
-		color: var(--text-second);
+		color: var(--white);
 		background-color: transparent;
 	}
 
@@ -54,13 +54,13 @@
 }
 
 .button_form {
-	color: var(--text-second);
+	color: var(--white);
 	background-color: var(--background-third);
 }
 
 .button_contact {
 	padding: 10px 5px ;
-	color: var(--text-second);
+	color: var(--white);
 	background-color: var(--background);
 
 	&::after {
@@ -79,8 +79,8 @@
 .disabled:active {
 	cursor: not-allowed;
 	transform: none;
-	color: var(--button-text-disabled);
-	background-color: var(--button-disabled);
+	color: var(--text);
+	background-color: var(--background-third);
 }
 
 @media only screen and (max-width: 768px) {

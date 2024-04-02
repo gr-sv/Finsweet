@@ -110,14 +110,14 @@
 		display: block;
 		width: 24px;
 		height: 2px;
-		background-color: var(--text-second);
+		background-color: var(--white);
 	}
 	
 	.burgerButton::before {
 		content: '';
 		width: 24px;
 		height: 2px;
-		background-color: var(--text-second);
+		background-color: var(--white);
 		position: absolute;
 		bottom: 10px;
 		right: 0;	
@@ -127,7 +127,7 @@
 		content: '';
 		width: 24px;
 		height: 2px;
-		background-color: var(--text-second);
+		background-color: var(--white);
 		position: absolute;
 		top: 10px;
 		right: 0;	
