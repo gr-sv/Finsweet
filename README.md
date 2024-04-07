@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Finsweet
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting Start
+
+To install the project, please, download it or clone.
+
+## Built With
+
+* React
+* SCSS
+* HTML
 
 ## Available Scripts
 
