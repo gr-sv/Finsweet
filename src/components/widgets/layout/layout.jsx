@@ -2,15 +2,23 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Header from '../header/header';
 import Footer from '../footer/footer';
-import s from './layout.module.scss'
+import s from './layout.module.scss';
 
-// const router = createBrowserRouter([]);
+import HomePage from '../../../Pages/homePage/homePage';
 
-function Layout ({ children }) {
+
+const router = createBrowserRouter([
+	{
+		path: '/',
+		element: <HomePage />,
+	}
+]);
+
+function Layout () {
 	return (
 		<div className={s.layout}>
 			<Header />
-			{children}				
+			<RouterProvider router={router} />			
 			<Footer />
 		</div>
 	);

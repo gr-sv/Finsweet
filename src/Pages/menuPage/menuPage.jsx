@@ -3,11 +3,9 @@ import s from './homePage.module.scss'
 
 function MenuPage () {
 	return (
-		<div className={s.menuPage}>
-			<main>
-				<h1>Menu Page</h1>
-			</main>		
-		</div>
+		<main className={s.menuPage}>
+			<h1>Menu Page</h1>
+		</main>
 	);
 }
 
