@@ -14,9 +14,9 @@ function Header () {
 				<nav className={s.navigation}>
 					<Logo logoHeader className={s.navigation__logo} />
 
-					<div className={`${s.burger} ${isActive ? s.active : ''}`}>
-						<Navigation headerNav className={s.navigation__links} />
-						<Button button_clone>Clone Project</Button>
+					<div className={`${s.burger} ${isActive ? s.active : ''}`} onClick={() => setIsActive(false)}>
+						<Navigation headerNav className={s.navigation__links} onClick={e => e.stopPropagation()} />
+						<Button button_clone onClick={e => e.stopPropagation()}>Clone Project</Button>
 					</div>
 
 					<Button 

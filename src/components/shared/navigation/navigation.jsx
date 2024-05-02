@@ -2,14 +2,16 @@ import React from 'react';
 import s from './navigation.module.scss'
 import classNames from 'classnames';
 
-function Navigation ({ className, headerNav, footerNav }) {
+function Navigation ({ className, headerNav, footerNav, ...otherProps }) {
 	return (
-		<ul className={classNames(className, {
-			[s.headerNav]: headerNav,
-			[s.footerNav]: footerNav,
+		<ul
+			{...otherProps}
+			className={classNames(className, {
+				[s.headerNav]: headerNav,
+				[s.footerNav]: footerNav,
 		})}>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="/home">Home</a>
+				<a className={s.navigation__link} href="/">Home</a>
 			</li>
 			<li className={s.navigation__item}>
 				<a className={s.navigation__link} href="/menu">Menu</a>
