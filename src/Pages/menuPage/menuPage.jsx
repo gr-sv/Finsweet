@@ -1,5 +1,5 @@
 import React from "react";
-import s from './homePage.module.scss'
+import s from './menuPage.module.scss'
 
 function MenuPage () {
 	return (
