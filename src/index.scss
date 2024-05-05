@@ -101,6 +101,10 @@ body {
 	background-color: var(--background);
 }
 
+main {
+	flex-grow: 1;
+}
+
 img {
 	display: block;
 }
