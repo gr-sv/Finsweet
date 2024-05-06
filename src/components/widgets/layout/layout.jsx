@@ -6,13 +6,14 @@ import s from './layout.module.scss';
 
 import HomePage from '../../../pages/homePage/homePage';
 import MenuPage from '../../../pages/menuPage/menuPage';
+import NotFoundPage from '../../../pages/notFoundPage/notFoundPage';
 
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <HomePage />,
-		errorElement: <div>404 Not Found</div>
+		errorElement: <NotFoundPage />
 	},
 	{
 		path: '/menu',

@@ -21,7 +21,7 @@ function Logo ({ src, width, height, logoHeader, logoFooter, className }) {
 			[s.logoHeader]: logoHeader,
 			[s.logoFooter]: logoFooter,
 			})}
-			href="/home"
+			href="/"
 		>
 			<img
 				src={src}
