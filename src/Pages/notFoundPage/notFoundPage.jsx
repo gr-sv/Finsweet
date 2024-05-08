@@ -1,8 +1,16 @@
 import React from "react";
+import Wrapper from "../../components/widgets/wrapper/wrapper";
+import s from './notFoundPage.module.scss'
 
 function NotFoundPage () {
 	return (
-		<div>404 Not Found</div>
+		<main>
+			<Wrapper className={s.wrapper}>
+				<div className={s.text}>404 Not Found</div>
+			</Wrapper>
+		</main>
+		
+		
 	);
 }
 
