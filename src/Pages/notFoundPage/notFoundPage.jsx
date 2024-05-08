@@ -6,7 +6,8 @@ function NotFoundPage () {
 	return (
 		<main>
 			<Wrapper className={s.wrapper}>
-				<div className={s.text}>404 Not Found</div>
+				<h1 className={s.title}>Oops!</h1>
+      			<p className={s.text}>Sorry, an unexpected error has occurred.</p>
 			</Wrapper>
 		</main>
 		
