@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './navigation.module.scss'
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 function Navigation ({ className, headerNav, footerNav, ...otherProps }) {
 	return (
@@ -11,22 +12,22 @@ function Navigation ({ className, headerNav, footerNav, ...otherProps }) {
 				[s.footerNav]: footerNav,
 		})}>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="/">Home</a>
+				<Link className={s.navigation__link} to="/">Home</Link>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="/menu">Menu</a>
+				<Link className={s.navigation__link} to="/menu">Menu</Link>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="/about">About us</a>
+				<Link className={s.navigation__link} to="/about">About us</Link>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="/our-story">Our Story</a>
+				<Link className={s.navigation__link} to="/our-story">Our Story</Link>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="/blog">Blog</a>
+				<Link className={s.navigation__link} to="/blog">Blog</Link>
 			</li>
 			<li className={s.navigation__item}>
-				<a className={s.navigation__link} href="/contact">Contact</a>
+				<Link className={s.navigation__link} to="/contact">Contact</Link>
 			</li>
 		</ul>
 	)

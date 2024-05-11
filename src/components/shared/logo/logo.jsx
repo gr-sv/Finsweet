@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import s from './logo.module.scss';
+import { Link } from 'react-router-dom';
 
 function Logo ({ src, width, height, logoHeader, logoFooter, className }) {
 
@@ -17,11 +18,11 @@ function Logo ({ src, width, height, logoHeader, logoFooter, className }) {
 	}
 
 	return (
-		<a className={classNames(s.link,  className, {
+		<Link className={classNames(s.link,  className, {
 			[s.logoHeader]: logoHeader,
 			[s.logoFooter]: logoFooter,
 			})}
-			href="/"
+			to="/"
 		>
 			<img
 				src={src}
@@ -29,7 +30,7 @@ function Logo ({ src, width, height, logoHeader, logoFooter, className }) {
 				height={height}
 				alt="Logo of cafe Finsweet"
 			/>
-		</a>
+		</Link>
 	)
 }
 
