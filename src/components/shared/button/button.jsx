@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import s from './button.module.scss';
 
-const Button = ({ 
+function Button ({ 
 	children,
 	className,
 	button_clone,
@@ -12,7 +12,7 @@ const Button = ({
 	button_burger,
 	disabled,
 	...otherProps
-}) => {
+}) {
 	return (
 		<button
 			{...otherProps}
