@@ -5,17 +5,24 @@ import s from './input.module.scss';
 function Input ({
 	id,
 	className,
+	label,
 	...otherProps
 }) {
 	return (
-		<input
-			{...otherProps}
-			id={id}
-			name={id}
-			className={classNames(
-				s.input,
-				className,
-		)}/>
+		<React.Fragment>
+			{label && <label htmlFor={id}>{label}</label>}
+			<input
+				{...otherProps}
+				className={classNames(
+					s.input,
+					className,
+				)}
+				id={id}
+				name={id}
+				placeholder={id}
+			/>
+		</React.Fragment>
+		
 	)
 }
 

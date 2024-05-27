@@ -1,0 +1,24 @@
+.input {
+	width: 297px;
+	margin: 20px;
+	padding: 14px 32px;
+	font-family: "Poppins", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	color: var(--white);
+	background-color: var(--background);
+	border: 1px solid var(--background-second);
+	outline: none;
+
+	&::placeholder {
+		text-transform: capitalize;
+		color: var(--white);
+	}
+
+	&:hover,
+	&:focus {
+		padding: 13px 31px;
+		border: 2px solid var(--background-second);
+	}
+	
+}
