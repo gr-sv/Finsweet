@@ -4,9 +4,6 @@ import Footer from "../../components/widgets/footer/footer";
 
 function MenuPage () {
 	return (
-		// <main>
-		// 	<h1>Menu Page</h1>
-		// </main>
 		<React.Fragment>
 			<Header />
 			<main>

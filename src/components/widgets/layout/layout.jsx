@@ -24,9 +24,7 @@ const router = createBrowserRouter([
 function Layout () {
 	return (
 		<div className={s.layout}>
-			{/* <Header /> */}
-			<RouterProvider router={router} />			
-			{/* <Footer /> */}
+			<RouterProvider router={router} />	
 		</div>
 	);
 }
