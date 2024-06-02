@@ -9,8 +9,6 @@ function HomePage () {
 			<Header />
 			<main>
 				<h1>Home Page</h1>
-				<Input id='name' />
-				<Input id='email' />
 			</main>
 			<Footer />
 		</React.Fragment>
