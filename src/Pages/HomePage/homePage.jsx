@@ -13,19 +13,29 @@ function HomePage () {
 			<Header />
 			<main>
 				<section className={`${s.section} ${s.promo}`}>
-					<Wrapper>
+					<Wrapper className={s.wrapper}>
 						<h1 className='visually-hidden'>Finsweet</h1>
-						<div>
+						<div className={s.textWrapper}>
 							<h2 className='visually-hidden'>Promo</h2>
-							<p className={`${s.title} ${s.promo__title}`}>We serve high quality foods of all kinds.</p>
+							<p className={`${s.intro} ${s.promo__intro}`}>We serve high quality foods of all kinds.</p>
 							<p>Edit this text to make it your own. To edit, simply click directly on the text to start adding your own words. You can move the text.</p>
+
 							<Button>View Menu</Button>
-							<p>Opening Times</p>
-							<p>Sunday to Saturday | 09:00 AM to 11:00 PM</p>
-							<p>Location</p>
-							<p>Master canteen, BBSR , Odisha 752054</p>
-							<p>Call us</p>
-							<p>+9776462441</p>
+
+							<div className={s.time}>
+								<h3>Opening Times</h3>
+								<p>Sunday to Saturday | 09:00 AM to 11:00 PM</p>
+							</div>
+
+							<div className={s.place}>
+								<h3>Location</h3>
+								<p>Master canteen, BBSR , Odisha 752054</p>
+							</div>
+							
+							<div className={s.telephone}>
+								<h3>Call us</h3>
+								<p>+9776462441</p>
+							</div>							
 						</div>
 						<Image />
 					</Wrapper>
