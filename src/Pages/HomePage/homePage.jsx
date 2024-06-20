@@ -5,7 +5,7 @@ import Wrapper from '../../components/widgets/wrapper/wrapper';
 import Image from '../../components/shared/image/image';
 import Button from '../../components/shared/button/button';
 
-import s from './homePage.module.scss'
+import s from './homePage.module.scss';
 
 function HomePage () {
 	return (
@@ -37,7 +37,12 @@ function HomePage () {
 								<p>+9776462441</p>
 							</div>							
 						</div>
-						<Image />
+						<Image
+							src='/assests/images/promo.jpeg'
+							alt='Promo image'
+							width={622}
+							height={683}
+						/>
 					</Wrapper>
 				</section>
 			</main>
