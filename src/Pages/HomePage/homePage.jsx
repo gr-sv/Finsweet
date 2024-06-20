@@ -3,7 +3,7 @@ import Header from '../../components/widgets/header/header';
 import Footer from '../../components/widgets/footer/footer';
 import Wrapper from '../../components/widgets/wrapper/wrapper';
 import Image from '../../components/shared/image/image';
-import Button from '../../components/shared/button/button';
+import { Link } from 'react-router-dom';
 
 import s from './homePage.module.scss';
 
@@ -19,8 +19,8 @@ function HomePage () {
 							<h2 className='visually-hidden'>Promo</h2>
 							<p className={`${s.intro} ${s.promo__intro}`}>We serve high quality foods of all kinds.</p>
 							<p>Edit this text to make it your own. To edit, simply click directly on the text to start adding your own words. You can move the text.</p>
-
-							<Button>View Menu</Button>
+							
+							<Link className={s.promoLink} to="/menu">View Menu</Link>
 
 							<div className={s.time}>
 								<h3>Opening Times</h3>
