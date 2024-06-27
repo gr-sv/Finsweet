@@ -3,7 +3,9 @@
 	--background-second: #1F1D21;
 	--background-third: #27252D;
 	--background-hover: rgba(255, 196, 146, 0.27);
+	--background-hover2: rgba(255, 196, 146, 0.85);
 	--background-active: rgba(255, 196, 146, 0.17);
+	--background-active2: rgba(255, 196, 146, 0.65);
 	--text: #B8B8B8;
 	--textDark: #2E2D33;
 	--dustyBlue: #c4e4ea;
@@ -92,7 +94,7 @@ html,
 body {
 	min-width: 100vw;
 	overflow-x: hidden;
-	font-family: "Poppins", "Arial", sans-serif;
+	font-family: 'Poppins', 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 28px;
 }
@@ -117,4 +119,12 @@ img {
 :focus-visible {
     outline: 1px solid var(--dustyBlue);
     outline-offset: 2px;
+}
+
+.intro {
+	font-family: 'Playfair Display', 'Times New Roman', serif;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 68px;
+	color: var(--white);
 }
