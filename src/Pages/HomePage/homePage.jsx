@@ -17,10 +17,10 @@ function HomePage () {
 						<h1 className='visually-hidden'>Finsweet</h1>
 						<div className={s.textWrapper}>
 							<h2 className='visually-hidden'>Promo</h2>
-							<p className={`${s.intro} ${s.promo__intro}`}>We serve high quality foods of all kinds.</p>
-							<p>Edit this text to make it your own. To edit, simply click directly on the text to start adding your own words. You can move the text.</p>
+							<p className={`intro ${s.promo__intro}`}>We serve high quality foods of all kinds.</p>
+							<p className={s.promo__text}>Edit this text to make it your own. To edit, simply click directly on the text to start adding your own words. You can move the text.</p>
 							
-							<Link className={s.promoLink} to="/menu">View Menu</Link>
+							<Link className={`${s.orangeBtnLink} ${s.promo__link}`} to="/menu">View Menu</Link>
 
 							<div className={s.time}>
 								<h3>Opening Times</h3>
