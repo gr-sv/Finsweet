@@ -23,18 +23,18 @@ function HomePage () {
 							<Link className={`${s.orangeBtnLink} ${s.promo__link}`} to="/menu">View Menu</Link>
 
 							<div className={s.time}>
-								<h3>Opening Times</h3>
-								<p>Sunday to Saturday | 09:00 AM to 11:00 PM</p>
+								<h3 className={s.time__title}>Opening Times</h3>
+								<p className={s.time__text}>Sunday to Saturday | 09:00 AM to 11:00 PM</p>
 							</div>
 
 							<div className={s.place}>
-								<h3>Location</h3>
-								<p>Master canteen, BBSR , Odisha 752054</p>
+								<h3 className={s.place__title}>Location</h3>
+								<p className={s.place__text}>Master canteen, BBSR , Odisha 752054</p>
 							</div>
 							
-							<div className={s.telephone}>
-								<h3>Call us</h3>
-								<p>+9776462441</p>
+							<div className={s.callUs}>
+								<h3 className={s.callUs__title}>Call us</h3>
+								<a className={s.callUs__link} href='tel:+9776462441'>+9776462441</a>
 							</div>							
 						</div>
 						<Image
