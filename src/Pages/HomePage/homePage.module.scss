@@ -75,3 +75,22 @@
 	color: var(--text);
 }
 
+@media only screen and (max-width: 1278px) {
+	.wrapper {
+		column-gap: 22px;
+	}
+
+	.textWrapper {
+		margin-top: 0;
+		align-self: center;
+	}
+
+	.promo__image {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 1147px) {
+	
+}

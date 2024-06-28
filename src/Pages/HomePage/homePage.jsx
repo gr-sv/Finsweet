@@ -38,6 +38,7 @@ function HomePage () {
 							</div>							
 						</div>
 						<Image
+							className={s.promo__image}
 							src='/assests/images/promo.jpeg'
 							alt='Promo image'
 							width={622}
@@ -48,7 +49,6 @@ function HomePage () {
 			</main>
 			<Footer />
 		</React.Fragment>
-		
 	);
 }
 
