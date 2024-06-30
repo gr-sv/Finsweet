@@ -92,7 +92,22 @@
 }
 
 @media only screen and (max-width: 1147px) {
-	
+	.promo__intro {
+		padding-bottom: 10px;
+	}
+
+	.promo__text {
+		padding-bottom: 20px;
+	}
+
+	.promo__link {
+		margin-bottom: 20px;
+	}
+
+	.time,
+	.place {
+		margin-bottom: 10px;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
