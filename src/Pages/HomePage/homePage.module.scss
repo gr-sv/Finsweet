@@ -94,3 +94,17 @@
 @media only screen and (max-width: 1147px) {
 	
 }
+
+@media only screen and (max-width: 1024px) {
+	.orangeBtnLink {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.time__title,
+	.place__title,
+	.callUs__title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}

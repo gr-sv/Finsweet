@@ -34,6 +34,13 @@
 	}
 }
 
+@media only screen and (max-width: 1024px) {
+	.navigation__link {
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.headerNav .navigation__link {
 		background-color: var(--background-second);

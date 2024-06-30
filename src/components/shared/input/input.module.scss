@@ -20,5 +20,11 @@
 		padding: 13px 31px;
 		border: 2px solid var(--background-second);
 	}
-	
+}
+
+@media only screen and (max-width: 1024px) {
+	.input {
+		font-size: 14px;
+		line-height: 26px;
+	}
 }
