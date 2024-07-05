@@ -123,3 +123,11 @@
 		line-height: 28px;
 	}
 }
+
+@media only screen and (max-width: 1003px) {
+	.wrapper {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		column-gap: 18px;
+	}
+}
