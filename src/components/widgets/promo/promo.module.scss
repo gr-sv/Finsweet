@@ -122,12 +122,16 @@
 		font-size: 18px;
 		line-height: 28px;
 	}
+
+	.promo__image {
+		align-self: center;
+	}
 }
 
-@media only screen and (max-width: 1003px) {
+@media only screen and (max-width: 768px) {
 	.wrapper {
 		grid-template-columns: auto;
 		grid-template-rows: auto auto;
-		column-gap: 18px;
+		row-gap: 18px;
 	}
 }
