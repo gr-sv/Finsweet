@@ -35,13 +35,25 @@ function KnowMore () {
 						<p>Through True Rich Attended does no end it his mother since favourable.</p>
 					</div>					
 					
-					<Link className={`${s.orangeBtnLink} ${s.knowMore__link}`} to="/menu">View Menu</Link>
+					<Link className={`orangeBtnLink ${s.knowMore__link}`} to="/menu">View Menu</Link>
 				</div>
 				
 				<div className="image-wrapper">
-					<Image />
+					<Image
+						className={`${s.knowMore__image} ${s.image_first}`}
+						src='/assests/images/know-more_1.jpeg'
+						alt='Know more image 1'
+						width={240}
+						height={500}
+					/>
 
-					<Image />
+					<Image
+						className={`${s.knowMore__image} ${s.image_first}`}
+						src='/assests/images/know-more_2.jpeg'
+						alt='Know more image 2'
+						width={240}
+						height={500}
+					/>
 				</div>				
 			</Wrapper>
 		</section>
