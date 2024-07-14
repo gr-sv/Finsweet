@@ -7,7 +7,7 @@ import s from './promo.module.scss'
 
 function Promo () {
 	return (
-		<section className={`${s.section} ${s.promo}`}>
+		<section className={s.promo}>
 			<Wrapper className={s.wrapper}>
 				<h1 className='visually-hidden'>Finsweet</h1>
 				<div className={s.textWrapper}>
@@ -15,7 +15,7 @@ function Promo () {
 					<p className={`intro ${s.promo__intro}`}>We serve high quality foods of all kinds.</p>
 					<p className={s.promo__text}>Edit this text to make it your own. To edit, simply click directly on the text to start adding your own words. You can move the text.</p>
 					
-					<Link className={`${s.orangeBtnLink} ${s.promo__link}`} to="/menu">View Menu</Link>
+					<Link className={`orangeBtnLink ${s.promo__link}`} to="/menu">View Menu</Link>
 
 					<div className={s.time}>
 						<h3 className={s.time__title}>Opening Times</h3>
