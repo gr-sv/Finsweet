@@ -1,0 +1,17 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 630px 1fr;
+	column-gap: 102px;
+}
+
+.features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 32px;
+}
+
+.imageWrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 67px;
+}
