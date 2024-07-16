@@ -7,7 +7,7 @@ import s from './knowMore.module.scss'
 
 function KnowMore () {
 	return (
-		<section className={s.knowMore}>
+		<section className={`section ${s.knowMore}`}>
 			<Wrapper className={s.wrapper}>
 				<div className={s.textWrapper}>
 					<h2 className={`title ${s.knowMore__title}`}>Know more about us</h2>

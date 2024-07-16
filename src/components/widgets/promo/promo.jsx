@@ -7,7 +7,7 @@ import s from './promo.module.scss'
 
 function Promo () {
 	return (
-		<section className={s.promo}>
+		<section className={`section ${s.promo}`}>
 			<Wrapper className={s.wrapper}>
 				<h1 className='visually-hidden'>Finsweet</h1>
 				<div className={s.textWrapper}>
