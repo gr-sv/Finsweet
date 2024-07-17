@@ -4,16 +4,47 @@
 	column-gap: 102px;
 }
 
+.knowMore__intro {
+	margin-bottom: 32px;
+}
+
+.knowMore__text {
+	margin-bottom: 40px;
+}
+
 .features {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 32px;
+	margin-bottom: 32px;
+}
+
+.feature__title {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: var(--dustyBlue);
+
+	&::before {
+		content: '';
+		background-image: url(../../../../public/assests/icons/know-more.svg);
+		background-repeat: no-repeat;
+		background-size: 13px 31px;
+		margin-right: 7px;
+		padding-left: 13px;
+	}
+
+}
+
+.feature__title + .feature__text {
+	margin-bottom: 15px;
 }
 
 .imageWrapper {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 67px;
+	margin-bottom: 12px;
 }
 
 .image_first {
