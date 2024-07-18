@@ -33,7 +33,6 @@
 		margin-right: 7px;
 		padding-left: 13px;
 	}
-
 }
 
 .feature__title + .feature__text {
@@ -49,4 +48,26 @@
 
 .image_first {
 	margin-top: 83px;
+}
+
+@media only screen and (max-width: 1278px) {
+	.wrapper {
+		grid-template-columns: 3fr 2fr;
+		column-gap: 5%;
+	}
+
+	.textWrapper {
+		align-self: center;
+	}
+
+	.imageWrapper {
+		column-gap: 5%;
+		margin-top: 0;
+		align-self: center;
+	}
+
+	.knowMore__image {
+		width: 100%;
+		height: auto;
+	}
 }
