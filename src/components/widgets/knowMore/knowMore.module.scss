@@ -16,7 +16,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 32px;
-	margin-bottom: 32px;
+	margin-bottom: 36px;
 }
 
 .feature__title {
@@ -44,7 +44,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 67px;
-	margin-bottom: 12px;
+	margin-top: 12px;
 }
 
 .image_first {
