@@ -37,7 +37,6 @@ function KnowMore () {
 						</div>
 					</div>
 										
-					
 					<Link className={`orangeBtnLink ${s.knowMore__link}`} to="/menu">View Menu</Link>
 				</div>
 				
