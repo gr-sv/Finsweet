@@ -1,3 +1,26 @@
+.wrapper {
+	display: grid;
+	grid-template-rows: repeat(4, auto);
+}
+
+.textWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.ourMenu__intro {
+	width: 450px;
+}
+
+.ourMenu__text {
+	width: 499px;
+	margin-top: 16px;
+	margin-right: 63px;
+}
+
 .menuItem__link {
 	display: block;
 }
