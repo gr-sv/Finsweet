@@ -17,7 +17,7 @@ function OurMenu () {
 				</div>
 				
 				<div className={s.menuItems}>
-					<h2>Most Popular Picks</h2>
+					<h2 className={s.menuItems__title}>Most Popular Picks</h2>
 					<Link className={s.menuItem__link}>
 						<Image 
 							className={s.menuItem__image}
