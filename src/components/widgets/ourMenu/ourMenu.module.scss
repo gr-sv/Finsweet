@@ -74,3 +74,18 @@
 .ourMenu__link {
 	justify-self: center;
 }
+
+@media only screen and (max-width: 1278px) {
+	.ourMenu__text {
+		margin: 0;
+	}
+
+	.menuItem__image {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 1147px) {
+	
+}
