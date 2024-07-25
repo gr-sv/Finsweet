@@ -78,15 +78,19 @@
 	}
 
 	.knowMore__text {
-		margin-bottom: 32px;
+		margin-bottom: 34px;
 	}
 
 	.features {
 		margin-bottom: 30px;
 	}
 
-	.feature__text {
+	.feature__title + .feature__text {
 		margin-bottom: 9px;
+	}
+
+	.image_first {
+		margin-top: 77px;
 	}
 }
 
