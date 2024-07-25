@@ -87,5 +87,22 @@
 }
 
 @media only screen and (max-width: 1147px) {
-	
+	.textWrapper {
+		margin-bottom: 14px;
+	}
+
+	.menuItems {
+		column-gap: 26px;
+		row-gap: 26px;
+		margin-bottom: 34px;
+	}
+
+	.menuItems__title {
+		margin-bottom: 45px;
+	}
+
+	.menuItem__title,
+	.menuItem__price {
+		padding: 18px 23px 18px 26px;
+	}
 }
