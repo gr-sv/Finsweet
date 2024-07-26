@@ -106,3 +106,20 @@
 		padding: 18px 23px 18px 26px;
 	}
 }
+
+@media only screen and (max-width: 1024px) {
+	.menuItems__title {
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.menuItem__title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.menuItem__price {
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
