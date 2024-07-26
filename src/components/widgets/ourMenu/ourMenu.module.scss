@@ -57,6 +57,7 @@
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 30px;
+	align-self: center;
 }
 
 .menuItem__price {
@@ -64,6 +65,7 @@
 	font-size: 20px;
 	line-height: 32px;
 	justify-self: end;
+	align-self: center;
 }
 
 .menuItem__title,
@@ -108,6 +110,19 @@
 }
 
 @media only screen and (max-width: 1024px) {
+	.ourMenu__intro {
+		width: 40%;
+	}
+
+	.ourMenu__text {
+		width: 50%;
+	}
+
+	.menuItems {
+		column-gap: 15px;
+		row-gap: 15px;
+	}
+
 	.menuItems__title {
 		font-size: 12px;
 		line-height: 19px;
@@ -121,5 +136,10 @@
 	.menuItem__price {
 		font-size: 18px;
 		line-height: 30px;
+	}
+
+	.menuItem__title,
+	.menuItem__price {
+		padding: 13px 18px 13px 21px;
 	}
 }
