@@ -4,6 +4,7 @@ import Footer from '../../components/widgets/footer/footer';
 import Promo from '../../components/widgets/promo/promo';
 import KnowMore from '../../components/widgets/knowMore/knowMore';
 import OurMenu from '../../components/widgets/ourMenu/ourMenu';
+import Serving from '../../components/widgets/serving/serving';
 import s from './homePage.module.scss';
 
 
@@ -14,6 +15,7 @@ function HomePage () {
 			<main>
 				<Promo />
 				<KnowMore />
+				<Serving />
 				<OurMenu />
 			</main>
 			<Footer />
