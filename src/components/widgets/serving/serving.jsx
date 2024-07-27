@@ -7,9 +7,22 @@ import s from './serving.module.scss'
 
 function Serving () {
 	return (
-		<section>
-			<Wrapper>
-				<h2>What we are serving</h2>
+		<section className={`section ${s.serving}`}>
+			<Wrapper className={s.wrapper}>
+				<h2 className={`title ${s.serving__title}`}>What we are serving</h2>
+				<div className={s.textWrapper}>
+					<p className={`intro ${s.serving__intro}`}>We all have to eat, so why not do it beautifully?</p>
+					<p className={s.serving__text}>Through True Rich Attended does no end it his mother since 
+						favourable real had half every him case in packages enquire we up ecstatic.. Through 
+						True Rich Attended does no end it his mother</p>
+				</div>
+
+				<div className={s.serving__list}>
+					<div className={s.serving__item}>
+						<h3 className={s.item__title}></h3>
+						<p className={s.item__text}></p>
+					</div>
+				</div>
 			</Wrapper>
 		</section>
 	)
