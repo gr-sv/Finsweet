@@ -19,8 +19,39 @@ function Serving () {
 
 				<div className={s.serving__list}>
 					<div className={s.serving__item}>
-						<h3 className={s.item__title}></h3>
-						<p className={s.item__text}></p>
+						<h3 className={s.item__title}>Quafe Cake</h3>
+						<p className={s.item__text}>Through True Rich Attended no end it his mother since 
+							favourable real had half every him.</p>
+					</div>
+
+					<div className={s.serving__item}>
+						<h3 className={s.item__title}>Cofee</h3>
+						<p className={s.item__text}>Through True Rich Attended no end it his mother since 
+							favourable real had half every him.</p>
+					</div>
+
+					<div className={s.serving__item}>
+						<h3 className={s.item__title}>Fast Food</h3>
+						<p className={s.item__text}>Through True Rich Attended no end it his mother since 
+							favourable real had half every him.</p>
+					</div>
+
+					<div className={s.serving__item}>
+						<h3 className={s.item__title}>Cocktails</h3>
+						<p className={s.item__text}>Through True Rich Attended no end it his mother since 
+							favourable real had half every him.</p>
+					</div>
+
+					<div className={s.serving__item}>
+						<h3 className={s.item__title}>Grill</h3>
+						<p className={s.item__text}>Through True Rich Attended no end it his mother since 
+							favourable real had half every him.</p>
+					</div>
+
+					<div className={s.serving__item}>
+						<h3 className={s.item__title}>Snacks</h3>
+						<p className={s.item__text}>Through True Rich Attended no end it his mother since 
+							favourable real had half every him.</p>
 					</div>
 				</div>
 			</Wrapper>
