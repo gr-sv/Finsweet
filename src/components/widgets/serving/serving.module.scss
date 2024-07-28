@@ -17,3 +17,22 @@
 .serving__text {
 	width: 549px;
 }
+
+.serving__list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
+	background-color: var(--background-serving);
+}
+
+.serving__item {
+	padding: 64px;
+}
+
+.item__title {
+	font-family: 'Playfair Display', 'Times New Roman', serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 48px;
+	margin-bottom: 12px;
+}
