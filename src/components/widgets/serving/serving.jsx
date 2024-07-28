@@ -19,7 +19,7 @@ function Serving () {
 
 				<div className={s.serving__list}>
 					<div className={s.serving__item}>
-						<h3 className={s.item__title}>Quafe Cake</h3>
+						<h3 className={`${s.item__title} ${s.icon__one}`}>Quafe Cake</h3>
 						<p className={s.item__text}>Through True Rich Attended no end it his mother since 
 							favourable real had half every him.</p>
 					</div>

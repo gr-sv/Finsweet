@@ -1,0 +1,19 @@
+.wrapper {
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+}
+
+.textWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 64px;
+}
+
+.serving__intro {
+	width: 660px;
+}
+
+.serving__text {
+	width: 549px;
+}
