@@ -89,3 +89,18 @@
 		width: 42%;
 	}
 }
+
+@media only screen and (max-width: 1147px) {
+	.textWrapper {
+		margin-bottom: 58px;
+	}
+
+	.serving__item {
+		padding: 58px;
+	}
+
+	.item__title {
+		margin-bottom: 6px;
+		padding-top: 66px;
+	}
+}
