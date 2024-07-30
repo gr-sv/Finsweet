@@ -79,3 +79,13 @@
 .icon__six::before {
 	background-image: url(../../../../public/assests/icons/snacks.svg);
 }
+
+@media only screen and (max-width: 1278px) {
+	.serving__intro {
+		width: 56%;
+	}
+
+	.serving__text {
+		width: 42%;
+	}
+}
