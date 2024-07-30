@@ -27,6 +27,10 @@
 
 .serving__item {
 	padding: 64px;
+
+	&:not(:nth-child(3n)) {
+		border-right: 1px solid var(--line-serving);
+	}
 }
 
 .item__title {
