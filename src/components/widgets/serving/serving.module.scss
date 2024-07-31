@@ -104,3 +104,10 @@
 		padding-top: 66px;
 	}
 }
+
+@media only screen and (max-width: 1024px) {
+	.item__title {
+		font-size: 30px;
+		line-height: 46px;
+	}
+}
