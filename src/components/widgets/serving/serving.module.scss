@@ -143,3 +143,20 @@
 		margin-bottom: 26px;
 	}
 }
+
+@media only screen and (max-width: 572px) {
+	.serving__list {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, auto);
+	}
+
+	.serving__item:nth-child(2n-1) {
+		border: none;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.serving__item {
+		padding: 45px;
+	}
+}
