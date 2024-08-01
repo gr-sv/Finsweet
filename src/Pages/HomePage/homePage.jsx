@@ -5,6 +5,7 @@ import Promo from '../../components/widgets/promo/promo';
 import KnowMore from '../../components/widgets/knowMore/knowMore';
 import OurMenu from '../../components/widgets/ourMenu/ourMenu';
 import Serving from '../../components/widgets/serving/serving';
+import Quote from '../../components/widgets/quote/quote';
 import s from './homePage.module.scss';
 
 
@@ -17,6 +18,7 @@ function HomePage () {
 				<KnowMore />
 				<Serving />
 				<OurMenu />
+				<Quote />
 			</main>
 			<Footer />
 		</React.Fragment>

@@ -1,7 +1,5 @@
 import React from "react";
 import Wrapper from "../wrapper/wrapper";
-import { Link } from "react-router-dom";
-import Image from "../../shared/image/image";
 
 import s from './serving.module.scss'
 
