@@ -1,3 +1,16 @@
+.quote {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.bodyQuote {
+	background-color: var(--background-second);
+}
+
 .bodyQuote__text:before {
   content: '\201C';
+}
+
+.quote__video {
+	display: block;
 }
