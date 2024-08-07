@@ -3,14 +3,27 @@
 	grid-template-columns: auto auto;
 }
 
-.bodyQuote {
+.theQuote {
 	background-color: var(--background-second);
 }
 
-.bodyQuote__text:before {
+.theQuote__text:before {
   content: '\201C';
 }
 
-.quote__video {
-	display: block;
-}
+// .quote__video {
+// 	display: block;
+// 	position: relative;
+// }
+
+// .video__play {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	background-image: url(../../../../public/assests/icons/play.svg);
+// 	background-position: center;
+// 	background-repeat: no-repeat;
+// 	width: 60px;
+// 	height: 60px;
+
+// }

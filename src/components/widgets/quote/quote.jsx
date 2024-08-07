@@ -7,13 +7,13 @@ function Quote () {
 	return (
 		<section className={`section ${s.quote}`}>
 			<h2 className="visually-hidden">Quote</h2>
-			<blockquote className={s.bodyQuote}>
-				<p className={s.bodyQuote__text}>Edit this text to make it your own. To edit, simply 
+			<blockquote className={s.theQuote}>
+				<p className={s.theQuote__text}>Edit this text to make it your own. To edit, simply 
 					click directly on the text to start adding your own 
 					words. You can move the text by dragging and dropping 
 					the text</p>
 
-				<div className={s.bodyQuote__author}>
+				<div className={s.theQuote__author}>
 					<p className={s.author__name}>Joheny Andro</p>
 					<p className={s.author__place}>Bhubaneswar, Odisha</p>
 					<Image
@@ -41,9 +41,11 @@ function Quote () {
 					Your browser does not support the video tag. Here is a
     				<a href="#" download="video.mp4">link to the video</a> instead.
 				</video>
-				<div className={s.quote__videoControls}>
-					<Button className={s.video__play} />
-				</div>
+				{/* <div className={s.quote__videoControls}>
+					<Button className={s.video__play} id="playpause">
+						<span className="visually-hidden">Play/Pause</span>
+					</Button>
+				</div> */}
 			</div>
 		</section>
 	)
