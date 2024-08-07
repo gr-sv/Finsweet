@@ -31,7 +31,15 @@ function Quote () {
 					poster='/assests/images/video.jpg'
 					width={925}
 					height={668}
-				/>
+					loop
+					muted
+				>
+					<source src="" type="video/mp4" />
+					<source src="" type="video/ogg" />
+					<source src="" type="video/webm" />
+					Your browser does not support the video tag. Here is a
+    				<a href="#" download="video.mp4">link to the video</a> instead.
+				</video>
 			</div>
 		</section>
 	)
