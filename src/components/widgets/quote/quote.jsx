@@ -28,7 +28,7 @@ function Quote () {
 			<div>
 				<video
 					className={s.quote__video}
-					poster='/assests/images/video.jpeg'
+					poster='/assests/images/video.jpg'
 					width={925}
 					height={668}
 				/>
