@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../../shared/image/image";
+import Button from '../../shared/button/button.jsx';
 import s from './quote.module.scss'
 
 function Quote () {
@@ -25,7 +26,7 @@ function Quote () {
 				</div>					
 			</blockquote>
 
-			<div>
+			<div className={s.quote__videoWrapper}>
 				<video
 					className={s.quote__video}
 					poster='/assests/images/video.jpg'
@@ -40,6 +41,9 @@ function Quote () {
 					Your browser does not support the video tag. Here is a
     				<a href="#" download="video.mp4">link to the video</a> instead.
 				</video>
+				<div className={s.quote__videoControls}>
+					<Button className={s.video__play} />
+				</div>
 			</div>
 		</section>
 	)
