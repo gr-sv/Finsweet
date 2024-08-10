@@ -7,8 +7,20 @@
 	background-color: var(--background-second);
 }
 
-.theQuote__text:before {
-  content: '\201C';
+.theQuote__text {
+	padding-top: 78px;
+	position: relative;
+
+	&::before {
+		content: '\0022';
+	font-family: 'Gilroy', 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 92px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}  
 }
 
 // .quote__video {
