@@ -30,8 +30,6 @@ function Quote () {
 				<video
 					className={s.quote__video}
 					poster='/assests/images/video.jpg'
-					width={925}
-					height={668}
 					loop
 					muted
 				>
