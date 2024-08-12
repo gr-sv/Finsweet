@@ -39,11 +39,11 @@ function Quote () {
 					Your browser does not support the video tag. Here is a
     				<a href="#" download="video.mp4">link to the video</a> instead.
 				</video>
-				{/* <div className={s.quote__videoControls}>
+				<div className={s.quote__videoControls}>
 					<Button className={s.video__play} id="playpause">
 						<span className="visually-hidden">Play/Pause</span>
 					</Button>
-				</div> */}
+				</div>
 			</div>
 		</section>
 	)
