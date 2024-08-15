@@ -6,14 +6,14 @@
 }
 
 .theQuote {
-	padding: 20px 60px 20px 10px;
+	padding-right: 78px;
 	justify-self: end;
 }
 
 .theQuote__text {
 	width: 437px;
 	margin-bottom: 60px;
-	padding-top: 70px;
+	padding-top: 77px;
 	font-family: 'Playfair Display', 'Times New Roman', serif;
 	font-size: 32px;
 	line-height: 48px;
@@ -104,6 +104,17 @@
 	}
 }
 
+@media only screen and (max-width: 1440px) {
+	.theQuote {
+		padding: 20px 60px 20px 10px;
+	}
+
+	.theQuote__text {
+		margin-bottom: 40px;
+		padding-top: 70px;
+	}
+}
+
 @media only screen and (max-width: 1278px) {
 	.theQuote {
 		padding-right: 15px;
@@ -114,3 +125,4 @@
 		max-width: 437px;
 	}
 }
+
