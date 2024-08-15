@@ -119,10 +119,18 @@
 	.theQuote {
 		padding-right: 15px;
 	}
+}
 
-	.theQuote__text {
-		width: 100%;
-		max-width: 437px;
+@media only screen and (max-width: 1213px) {
+	.quote {
+		grid-template-columns: auto;
+		grid-template-rows: repeat(2, auto);
+	}
+
+	.theQuote {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		justify-self: center;
 	}
 }
 
