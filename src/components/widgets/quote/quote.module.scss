@@ -117,7 +117,7 @@
 
 @media only screen and (max-width: 1278px) {
 	.theQuote {
-		padding-right: 15px;
+		padding-right: 10px;
 	}
 }
 
@@ -138,3 +138,18 @@
 	}
 }
 
+@media only screen and (max-width: 1147px) {
+	.theQuote {
+		padding-top: 74px;
+		padding-bottom: 74px;
+	}
+
+	.theQuote__text {
+		margin-bottom: 34px;
+		padding-top: 64px;
+	}
+
+	.theQuote__author {
+		padding-bottom: 15px;
+	}
+}
