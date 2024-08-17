@@ -87,6 +87,7 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	transform: translate(-50%, -50%);
 	background-image: url(../../../../public/assests/icons/play.svg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -172,5 +173,11 @@
 	.author__place {
 		font-size: 10px;
 		line-height: 14px;
+	}
+}
+
+@media only screen and (max-width: 457px) {
+	.theQuote__text {
+		width: 100%;
 	}
 }
