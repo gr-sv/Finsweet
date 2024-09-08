@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import s from './layout.module.scss';
 
-import HomePage from '../../../pages/homePage/homePage.jsx';
+import HomePage from '../../../pages/homePage/homePage';
 import MenuPage from '../../../pages/menuPage/menuPage.jsx';
 import NotFoundPage from '../../../pages/notFoundPage/notFoundPage.jsx';
 
