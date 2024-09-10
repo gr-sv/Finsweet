@@ -3,8 +3,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import s from './layout.module.scss';
 
 import HomePage from '../../../pages/homePage/homePage';
-import MenuPage from '../../../pages/menuPage/menuPage.jsx';
-import NotFoundPage from '../../../pages/notFoundPage/notFoundPage.jsx';
+import MenuPage from '../../../pages/menuPage/menuPage';
+import NotFoundPage from '../../../pages/notFoundPage/notFoundPage';
 
 const router = createBrowserRouter([
 	{

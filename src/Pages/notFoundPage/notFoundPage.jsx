@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Wrapper from "../../components/widgets/wrapper/wrapper";
 import s from './notFoundPage.module.scss'
 import Header from "../../components/widgets/header/header";
