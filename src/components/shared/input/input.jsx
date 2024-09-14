@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fragment } from 'react';
 import classNames from 'classnames';
 import s from './input.module.scss';
 
@@ -9,7 +10,7 @@ function Input ({
 	...otherProps
 }) {
 	return (
-		<React.Fragment>
+		<Fragment>
 			{label && <label htmlFor={id}>{label}</label>}
 			<input
 				{...otherProps}
@@ -21,8 +22,7 @@ function Input ({
 				name={id}
 				placeholder={id}
 			/>
-		</React.Fragment>
-		
+		</Fragment>		
 	)
 }
 

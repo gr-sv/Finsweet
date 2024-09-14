@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fragment } from 'react';
 import Header from '../../components/widgets/header/header';
 import Footer from '../../components/widgets/footer/footer';
 import Promo from '../../components/widgets/promo/promo';
@@ -10,7 +11,7 @@ import Quote from '../../components/widgets/quote/quote';
 
 function HomePage () {
 	return (
-		<React.Fragment>
+		<Fragment>
 			<Header />
 			<main>
 				<Promo />
@@ -20,7 +21,7 @@ function HomePage () {
 				<Quote />
 			</main>
 			<Footer />
-		</React.Fragment>
+		</Fragment>
 	);
 }
 

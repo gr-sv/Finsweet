@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fragment } from 'react';
 import Wrapper from "../../components/widgets/wrapper/wrapper";
 import s from './notFoundPage.module.scss'
 import Header from "../../components/widgets/header/header";
@@ -6,7 +7,7 @@ import Footer from "../../components/widgets/footer/footer";
 
 function NotFoundPage () {
 	return (
-		<React.Fragment>
+		<Fragment>
 			<Header />
 			<main>
 				<Wrapper className={s.wrapper}>
@@ -15,10 +16,7 @@ function NotFoundPage () {
 				</Wrapper>
 			</main>
 			<Footer />
-		</React.Fragment>
-		
-		
-		
+		</Fragment>
 	);
 }
 
