@@ -6,6 +6,29 @@ import s from './footer.module.scss'
 import Button from '../../shared/button/button';
 
 function Footer () {
+	const socials = [
+		{
+			id: '0',
+			linkClass: 'link__fb',
+			text: 'Facebook'
+		},
+		{
+			id: '1',
+			linkClass: 'link__twitter',
+			text: 'Twitter'
+		},
+		{
+			id: '2',
+			linkClass: 'link__inst',
+			text: 'Instagram'
+		},
+		{
+			id: '3',
+			linkClass: 'link__linkedin',
+			text: 'LinkedIn'
+		}
+	]
+
 	return (
 		<footer className={s.footer}>
 			<Wrapper className={s.wrapper_top}>
@@ -24,19 +47,13 @@ function Footer () {
 
 				<section className={s.social}>
 					<h2 className="visually-hidden">Social networks</h2>
+
 					<div className={s.social__list}>
-						<a className={`${s.social__link} ${s.link__fb}`} href="#">
-							<span className="visually-hidden">Facebook</span>
-						</a>
-						<a className={`${s.social__link} ${s.link__twitter}`} href="#">
-							<span className="visually-hidden">Twitter</span>
-						</a>
-						<a className={`${s.social__link} ${s.link__inst}`} href="#">
-							<span className="visually-hidden">Instagram</span>
-						</a>
-						<a className={`${s.social__link} ${s.link__linkedin}`} href="#">
-							<span className="visually-hidden">LinkedIn</span>
-						</a>
+						{socials.map((social) => (
+							<a key={social.id} className={`${s.social__link} ${s[social.linkClass]}`} href='#'>
+								<span className='visually-hidden'>{social.text}</span>
+							</a>
+						))}
 					</div>
 				</section>
 
